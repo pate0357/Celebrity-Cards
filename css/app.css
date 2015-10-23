@@ -1,0 +1,46 @@
+@charset 'utf-8';
+header h1 {
+    font-size: 3rem;
+    color: #3399CC;
+}
+/* -- fix for angular ui-bootstrap to handle empty href values properly --  */
+
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+    cursor: pointer;
+}
+
+.detail {
+    margin-top: 5%;
+}
+
+.card-columns {
+    width: 26.3%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.row {
+    background-color: #ECE9DF;
+    font-family: cursive;
+    text-align: center;
+}
+
+.headinglist {
+    text-align: center;
+    font-family: cursive;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.bckbtn {
+    margin-left: 35%;
+}
+
+.container {
+    background-color: #ECE9DF;
+}
