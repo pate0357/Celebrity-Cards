@@ -19,7 +19,7 @@ var Booya = angular.module('Booya')
         });
 });
 
-
+//this control will change the heading in the page.
 Booya.run(['$rootScope', function ($rootScope) {
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
         $rootScope.title = current.$$route.title;
